@@ -1,0 +1,35 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "Servidor backend del curso de Angular Avanzado",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Herrera",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "google-auth-library": "^0.12.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^4.13.12",
+    "mongoose-unique-validator": "^1.0.6"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.7.3",
+    "nodemon": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominHect/Backend-server-Node---Mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DominHect/Backend-server-Node---Mongodb/issues"
+  },
+  "homepage": "https://github.com/DominHect/Backend-server-Node---Mongodb#readme"
+}
